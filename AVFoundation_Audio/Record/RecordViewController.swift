@@ -17,7 +17,7 @@ final class RecordViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemFill
+        view.backgroundColor = .white
         configureRecording()
     }
     

@@ -22,7 +22,7 @@ final class VideoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.systemFill
+        view.backgroundColor = .white
         setupViews()
         setupLayouts()
     }

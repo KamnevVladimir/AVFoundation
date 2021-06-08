@@ -58,13 +58,10 @@ final class ViewController: UIViewController {
     private func stopMusic() {
         if player.isPlaying {
             player.stop()
-            player.currentTime = 0
-            timer.invalidate()
-            audioProgressView.progress = 0
         }
-        else {
-            print("Already stopped!")
-        }
+        player.currentTime = 0
+        timer.invalidate()
+        audioProgressView.progress = 0
     }
     
     private func playMusic() {
